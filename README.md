@@ -1,37 +1,36 @@
-# front_calendario_visitacao
+# Calendário de Visitas - FCJA (Frontend)
 
-Este repositório contém o código-fonte do front-end do sistema de calendário de visitação da Fundação Casa José Américo. O aplicativo permite que os usuários visualizem e agendem visitas de forma fácil e intuitiva.
+Este repositório contém o código do "frontend" (a parte da frente, a interface) do sistema de agendamento de visitas da Fundação Casa José Américo (FCJA).
 
-## Requisitos
+## O que é isso?
 
-- Node.js (versão 14 ou superior)
-- Yarn (gerenciador de pacotes)
-- Navegador (Chrome, Firefox, Edge, etc.)
+Continuando a analogia do restaurante:
 
-## Como usar
+- A "cozinha" (o **backend**, o outro projeto) prepara a comida e gerencia o estoque (banco de dados).
+- Este projeto é o **cardápio** e o **garçom**. É a parte visual com a qual o usuário interage no navegador.
 
-1. Clone o repositório:
+Este projeto é o site em si. É ele que:
 
-   ```bash
-   git clone https://github.com/fundacaoCasaJoseAmerico/front_calendario_visitacao.git
-   ```
+- Mostra as datas disponíveis, os botões e os formulários.
+- "Conversa" com o backend para fazer pedidos (como "quero agendar uma visita").
+- Recebe as respostas da "cozinha" (backend) e as exibe de forma bonita para o usuário.
 
-2. Navegue até o diretório do projeto:
+## Tecnologias Principais
 
-   ```bash
-   cd front_calendario_visitacao
-   ```
+- **React:** A "biblioteca" principal para construir a interface (os "blocos de montar" do site).
+- **TypeScript:** Uma "camada" sobre o JavaScript que nos ajuda a escrever um código mais seguro, pegando erros antes que eles aconteçam.
+- **Vite:** A ferramenta que "constrói" o site e o atualiza no navegador em tempo real enquanto programamos.
+- **shadcn/ui:** Uma coleção de componentes de interface (botões, caixas de diálogo, etc.) prontos e bonitos.
 
-3. Instale as dependências:
+## Estrutura do Projeto
 
-   ```bash
-   yarn install
-   ```
+- `/front`: Contém todo o código-fonte do site (o cardápio e o garçom). **É aqui que a maior parte do trabalho acontece.**
+- `LICENSE`: A licença de uso do projeto (MIT).
 
-4. Inicie o servidor de desenvolvimento:
+## Como Começar
 
-   ```bash
-   yarn dev
-   ```
+Para entender como instalar e rodar o projeto, vá para a pasta principal do código:
 
-5. Abra o navegador e acesse `http://localhost:3000` para ver o aplicativo em execução.
+- **[front/README.md](front/README.md)** (Clique aqui ou abra o arquivo na pasta `front`)
+
+Esse arquivo tem o passo a passo detalhado.
