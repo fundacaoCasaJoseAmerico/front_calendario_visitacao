@@ -11,14 +11,23 @@ function App() {
 
   return (
     <>
-      <h1>PÁGINA INICIAL</h1>
-      <h2>Contador exemplo de useState: {count}</h2>
-      <Button
-        className="hover:bg-fuchsia-600 cursor-pointer"
-        onClick={handleClick}
-      >
-        Click Me
-      </Button>
+      <form>
+        <input
+          type="text"
+          placeholder="Type something..."
+          className="input-field"
+        />
+        <input
+          type="text"
+          placeholder="Type something..."
+          className="input-field"
+        />
+        <input
+          type="text"
+          placeholder="Type something..."
+          className="input-field"
+        />
+      </form>
     </>
   );
 }
